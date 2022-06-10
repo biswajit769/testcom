@@ -283,8 +283,8 @@ app.post("/setgtt", (req, res) => {
     });
 });
 
-app.listen(5005, () =>
-  console.log(`GTT app listening on port 5005!`)
+app.listen(process.env.PORT, () =>
+  console.log(`GTT app listening on port ${process.env.PORT}!`)
 );
 
 /*console.log("request has come");
