@@ -284,7 +284,7 @@ app.post("/setgtt", (req, res) => {
 });
 
 app.listen(5005, () =>
-  console.log(`GTT app listening on port ${configs.port}!`)
+  console.log(`GTT app listening on port 5005!`)
 );
 
 /*console.log("request has come");
